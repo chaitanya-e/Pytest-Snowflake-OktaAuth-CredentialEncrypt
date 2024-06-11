@@ -1,5 +1,7 @@
 import json
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from cryptoUtils.EncryptDecrypt import EncryptDecrypt
 
 class ConfigManager:
@@ -53,6 +55,7 @@ class ConfigManager:
         for key in config_data:
             if key in self.keys:
                 try:
+                    print(f"Decrypting key: {key}, value: {config_data[key]}")
                     decrypted_value = self.encrypt_decrypt_instance.decrypt(config_data[key])
                     decrypted_values[key] = decrypted_value
                 except Exception as e:
@@ -81,7 +84,6 @@ if __name__ == "__main__":
     keys_path = os.path.join(current_dir, file_path["SnowflakeConfigKeys"])
     config_path = os.path.join(current_dir, file_path["SnowflakeConfig"])
     manager = ConfigManager(keys_path, config_path)
-    config = manager.decrypt_config()
 
     # Encrypt the configuration file
     manager.encrypt_config()

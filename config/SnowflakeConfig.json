@@ -1,15 +1,15 @@
 {
     "account": {
-        "iv": "iZ8pBrdyJO0EZelM5TlnoQ==",
-        "ciphertext": "pg9txRG6s2kW3xvM784NneSchffZexk38kqmcQ02io0="
+        "iv": "Zx1npEekncnf3iMUuBiqzw==",
+        "ciphertext": "SK/zv6wOrIwOT/tpaOgcZ8DcSXXHUUY1Fu9gvBMefvs="
     },
     "user": {
-        "iv": "0CFY6yJ6LfUWJDVXZn1rbw==",
-        "ciphertext": "Bsz5/yWG+6z3ZihIXh/VxrXIFvd9qt37EGPG6M2UGBy4zGHjxEf84fjyBjM2zyuz"
+        "iv": "nb98CTGQbb1ZFWTKbx+T9Q==",
+        "ciphertext": "ncdL/nZ0uPYLbVU+AT+CWB4EWT2NtMRv3qGKIvyVMMc9uHKyaTr9gKWOYIDfjQZL"
     },
     "role": {
-        "iv": "XZontVuKiPzx5rqGjXFPdQ==",
-        "ciphertext": "J39/Rh5XB6s38VbLoJuLTl/rSlSmsmw9IAjBFAXMPks="
+        "iv": "DDi1BoOlmyEApXWpp0ETVQ==",
+        "ciphertext": "3tejh9NaHFHqmjtC7CCd3HcuE6UfRnmrle7BWrIPxmw="
     },
     "warehouse": "TEST_ADHOC_WH",
     "database": "US_ZIP_CODE_METADATA__POPULATIONS_GEO_CENTROID_LATLNG_CITY_NAMES_STATE_DMA_DEMOGRAPHICS",
