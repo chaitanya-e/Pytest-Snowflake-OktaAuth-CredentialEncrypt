@@ -55,7 +55,6 @@ class ConfigManager:
         for key in config_data:
             if key in self.keys:
                 try:
-                    print(f"Decrypting key: {key}, value: {config_data[key]}")
                     decrypted_value = self.encrypt_decrypt_instance.decrypt(config_data[key])
                     decrypted_values[key] = decrypted_value
                 except Exception as e:
