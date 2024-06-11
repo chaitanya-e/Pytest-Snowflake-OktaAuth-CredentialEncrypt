@@ -1,4 +1,4 @@
-# Generating requirements.txt
+# Generating requirements.txt - To be used only when new dependencies are added
 pip freeze > requirements.txt
 
 # Setup Instructions
