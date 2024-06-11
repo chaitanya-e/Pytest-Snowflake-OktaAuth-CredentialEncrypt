@@ -1,0 +1,17 @@
+# Define your connection parameters
+account = 'chb08794.us-east-1'
+user = 'SAICHAITANYA.E@PDITECHNOLOGIES.COM'
+role = 'TEST_SOFTWARE_ENGINEER_FR'
+warehouse = 'TEST_ADHOC_WH'
+database = 'US_ZIP_CODE_METADATA__POPULATIONS_GEO_CENTROID_LATLNG_CITY_NAMES_STATE_DMA_DEMOGRAPHICS'
+schema = 'ZIP_DEMOGRAPHICS'
+authenticator = 'externalbrowser'  # Use externalbrowser for Okta SSO
+
+# JSON format
+    "account": "chb08794.us-east-1",
+    "user": "SAICHAITANYA.E@PDITECHNOLOGIES.COM",
+    "role": "TEST_SOFTWARE_ENGINEER_FR",
+    "warehouse": "TEST_ADHOC_WH",
+    "database": "US_ZIP_CODE_METADATA__POPULATIONS_GEO_CENTROID_LATLNG_CITY_NAMES_STATE_DMA_DEMOGRAPHICS",
+    "schema": "ZIP_DEMOGRAPHICS",
+    "authenticator": "externalbrowser"

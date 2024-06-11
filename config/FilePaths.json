@@ -1,0 +1,4 @@
+{
+    "SnowflakeConfig" : "../config/SnowflakeConfig.json",
+    "SnowflakeConfigKeys" : "../config/SnowflakeConfigKeysToEncrypt.txt"
+}
